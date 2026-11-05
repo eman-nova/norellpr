@@ -130,8 +130,8 @@ export default function Work() {
 
         {/* Momdates Marketplace */}
         <motion.div variants={up}>
-          <Link to={`/work/${market.slug}`} className="relative rounded-[20px] overflow-hidden h-[62vh] max-md:h-[65vw] group no-underline block">
-            <img src={market.img} alt="Five people in matching Momdates Marketplace t-shirts standing in front of the Shop, Play, Eat, Connect event backdrop" loading="lazy" decoding="async"
+         <Link to={`/work/${market.slug}`} className="relative rounded-[20px] overflow-hidden h-[62vh] max-md:h-[65vw] group no-underline block bg-dark">
+            <img src={market.img} alt="Five people in matching Momdates Marketplace t-shirts standing in front of the Shop, Play, Eat, Connect event backdrop" decoding="async"
               className="w-full h-full object-cover object-[50%_10%] transition-transform duration-700 group-hover:scale-[1.03]" />
             <div className="absolute inset-0 bg-linear-to-t from-dark/85 via-dark/20 to-transparent" />
             <div className="absolute inset-0 bg-linear-to-b from-dark/55 to-transparent" />
